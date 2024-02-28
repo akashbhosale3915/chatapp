@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen;
+}
+
+.home {
+}
+
+.formwrapper label,
+h1,
+a {
+  @apply text-white;
+}
+
+.formwrapper input {
+  @apply text-black;
+}
